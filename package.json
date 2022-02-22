@@ -1,0 +1,31 @@
+{
+  "name": "ntang",
+  "version": "1.0.0-4",
+  "description": "柠糖工具箱",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rimraf dist/* & tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LemoFire/ntang.git"
+  },
+  "keywords": [
+    "toolkit"
+  ],
+  "author": "LemoFire",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/LemoFire/ntang/issues"
+  },
+  "homepage": "https://github.com/LemoFire/ntang#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.18",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.5"
+  }
+}
