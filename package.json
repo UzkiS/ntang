@@ -1,6 +1,6 @@
 {
   "name": "ntang",
-  "version": "1.0.2-0",
+  "version": "1.0.2-1",
   "description": "柠糖工具箱",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
