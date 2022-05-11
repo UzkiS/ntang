@@ -3,7 +3,7 @@ interface stringFilter {
 }
 
 /**
- * @description: 保留字符串中的数字
+ * @description 保留字符串中的数字
  * @param {string} content 待操作字符串
  * @return {*}
  */

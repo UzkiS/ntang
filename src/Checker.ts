@@ -3,7 +3,7 @@ interface checker {
 }
 
 /**
- * @description: 检查手机号是否正确
+ * @description 检查手机号是否正确
  * @param {string} phone
  * @return {*}
  */
