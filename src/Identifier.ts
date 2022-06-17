@@ -1,3 +1,5 @@
+import { hex_md5 } from "./Encrypt/md5";
+
 interface identifier {
   getFingerprint: () => Promise<string>;
 }
@@ -58,7 +60,7 @@ const getFingerprint = async (
   let fingerprint = navigatorInfo + userAgentInfo + screenInfo + dateInfo;
 
   if (raw == false) {
-    fingerprint = fingerprint;
+    fingerprint = hex_md5(fingerprint);
   }
   return fingerprint;
 };
