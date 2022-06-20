@@ -23,7 +23,7 @@ const debounce = (
   delay: number = 500,
   immediate: boolean = false
 ): any => {
-  let timer: number | undefined;
+  let timer: NodeJS.Timeout | undefined;
   return (...args: any) => {
     if (timer) clearTimeout(timer);
     if (immediate) {
@@ -61,7 +61,7 @@ const throttle = (
       }
     };
   } else {
-    let timer: number | undefined;
+    let timer: NodeJS.Timeout | undefined;
     return (...args: any) => {
       if (!timer) {
         fn.apply(this, args);
