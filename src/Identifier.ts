@@ -1,7 +1,7 @@
 import { hex_md5 } from "./Encrypt/md5";
 
 interface identifier {
-  getFingerprint: () => Promise<string>;
+  getFingerprint: (raw: boolean, httpCompatible: boolean) => Promise<string>;
 }
 
 const getFingerprint = async (

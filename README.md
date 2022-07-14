@@ -2,6 +2,8 @@
 
 柠的 JavaScript 工具箱
 
+[文档](https://ntang.ito.fun).
+
 ### 发布流程
 
 ##### 打包
@@ -21,8 +23,4 @@ pnpm version premajor // package.json 中的版本号1.1.0-0变为 2.0.0-0 一�
 git push
 
 pnpm publish
-```
-
-```
-
 ```
