@@ -7,7 +7,7 @@
 ```typescript
 import { useStringFilter } from "ntang";
 
-stringFilter = useStringFilter();
+const stringFilter = useStringFilter();
 ```
 
 ## leaveNum

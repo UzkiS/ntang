@@ -2,7 +2,7 @@
 
 柠的 JavaScript 工具箱
 
-[文档](https://ntang.ito.fun).
+[文档](https://docs.ito.fun/ntang/).
 
 ### 发布流程
 

@@ -7,7 +7,7 @@
 ```typescript
 import { useTime } from "ntang";
 
-time = useTime();
+const time = useTime();
 ```
 
 ## sleep

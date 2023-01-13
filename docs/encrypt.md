@@ -7,7 +7,7 @@
 ```typescript
 import { useEncrypt } from "ntang";
 
-encrypt = useEncrypt();
+const encrypt = useEncrypt();
 ```
 
 ## md5

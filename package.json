@@ -8,7 +8,14 @@
     "build": "rimraf dist/* & tsc",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:serve": "vitepress serve docs"
+    "docs:serve": "vitepress serve docs",
+    "publish:major": "npm run build && npm version major && npm publish",
+    "publish:minor": "npm run build && npm version minor && npm publish",
+    "publish:patch": "npm run build && npm version patch && npm publish",
+    "publish:premajor": "npm run build && npm version premajor && npm publish",
+    "publish:preminor": "npm run build && npm version preminor && npm publish",
+    "publish:prepatch": "npm run build && npm version prepatch && npm publish",
+    "publish:prerelease": "npm run build && npm version prerelease && npm publish"
   },
   "repository": {
     "type": "git",
@@ -32,6 +39,6 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "vitepress": "1.0.0-alpha.4"
+    "vitepress": "1.0.0-alpha.36"
   }
 }

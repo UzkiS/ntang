@@ -7,7 +7,7 @@
 ```typescript
 import { useOptimization } from "ntang";
 
-optimization = useOptimization();
+const optimization = useOptimization();
 ```
 
 ## debounce

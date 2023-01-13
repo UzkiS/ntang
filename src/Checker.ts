@@ -1,5 +1,6 @@
 interface checker {
   isPhone: (content: string) => boolean;
+  isPhoneNumber: (content: string) => boolean;
 }
 
 /**
@@ -7,7 +8,7 @@ interface checker {
  * @param {string} phone
  * @return {*}
  */
-const isPhone = (phone: string): boolean => {
+const isPhoneNumber = (phone: string): boolean => {
   if (phone == "" || !/^1[3456789]\d{9}$/.test(phone)) {
     return false;
   } else {
@@ -15,8 +16,14 @@ const isPhone = (phone: string): boolean => {
   }
 };
 
+/**
+ * @deprecated 使用 isPhoneNumber 替代
+ */
+const isPhone = isPhoneNumber;
+
 const checker: checker = {
   isPhone,
+  isPhoneNumber,
 };
 
 const useChecker = (): checker => {

@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   // description: "",
+  base: "/ntang/",
   lang: "zh-CN",
   lastUpdated: true,
   themeConfig: {
@@ -25,7 +26,20 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: "简介", link: "/checker" },
-          { text: "isPhone", link: "/checker#isphone" },
+          { text: "isPhoneNumber", link: "/checker#isphonenumber" },
+        ],
+      },
+      {
+        text: "Device",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "简介", link: "/device" },
+          { text: "isAndroid", link: "/device#isandroid" },
+          { text: "isWindows", link: "/device#iswindows" },
+          { text: "isMacOS", link: "/device#ismacos" },
+          { text: "isLinux", link: "/device#islinux" },
+          { text: "isPC", link: "/device#ispc" },
         ],
       },
       {

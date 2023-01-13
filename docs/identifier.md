@@ -7,7 +7,7 @@
 ```typescript
 import { useIdentifier } from "ntang";
 
-identifier = useIdentifier();
+const identifier = useIdentifier();
 ```
 
 ## getFingerprint
@@ -22,7 +22,7 @@ identifier.getFingerprint: (raw: boolean, httpCompatible: boolean) => Promise<st
 
 #### raw
 
-使用未经 md5 加密的指纹字符串，默认为`false`
+使用未经 md5 加密的指纹字符串，默认为 `false`
 
 #### httpCompatible
 
