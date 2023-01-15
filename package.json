@@ -6,7 +6,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "git:fixup": "git add . && git commit --amend --no-edit",
-    "update:version": "node ./script/updateVersion.mjs",
+    "update:version": "node ./scripts/updateVersion.mjs",
     "autobuild": "npm run update:version && npm run git:fixup && npm run build",
     "build": "rimraf dist/* & tsc",
     "docs:dev": "vitepress dev docs",
