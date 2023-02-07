@@ -21,6 +21,18 @@ export default defineConfig({
         items: [{ text: "快速开始", link: "/quick-start" }],
       },
       {
+        text: "Browser",
+        collapsible: true,
+        collapsed: true,
+        items: [
+          { text: "简介", link: "/browser" },
+          {
+            text: "getParameter",
+            link: "/browser#getparameter",
+          },
+        ],
+      },
+      {
         text: "Checker",
         collapsible: true,
         collapsed: true,

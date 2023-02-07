@@ -1,5 +1,6 @@
 import { PACKAGE_VERSION } from "./config/version";
 
+import * as Browser from "./Browser";
 export * from "./Checker";
 export * from "./Device";
 export * from "./Encrypt/index";
@@ -7,6 +8,8 @@ export * from "./Identifier";
 export * from "./Optimization";
 export * from "./StringFilter";
 export * from "./Time";
+
+export const useBrowser = () => Browser;
 
 console.log(
   "%cNTANG toolkit " + PACKAGE_VERSION + " loaded | https://docs.ito.fun/ntang",
