@@ -8,6 +8,7 @@ export * from "./Identifier";
 export * from "./Optimization";
 export * from "./StringFilter";
 export * from "./Time";
+export * from "./Type";
 
 export const useBrowser = () => Browser;
 
