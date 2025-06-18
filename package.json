@@ -22,26 +22,26 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LemoFire/ntang.git"
+    "url": "git+https://github.com/UzkiS/ntang.git"
   },
   "keywords": [
     "toolkit"
   ],
-  "author": "LemoFire",
+  "author": "UzkiS",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "bugs": {
-    "url": "https://github.com/LemoFire/ntang/issues"
+    "url": "https://github.com/UzkiS/ntang/issues"
   },
-  "homepage": "https://github.com/LemoFire/ntang#readme",
+  "homepage": "https://github.com/UzkiS/ntang#readme",
   "devDependencies": {
     "@types/node": "^18.11.18",
     "rimraf": "^3.0.2",
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "vitepress": "1.0.0-alpha.36"
+    "vitepress": "2.0.0-alpha.6"
   }
 }

@@ -1,6 +1,6 @@
 # ntang
 
-柠的 JavaScript 工具箱
+个人用 JavaScript 工具箱
 
 [文档](https://docs.ito.fun/ntang/).
 

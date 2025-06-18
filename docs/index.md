@@ -13,5 +13,5 @@ hero:
       link: /quick-start
     - theme: alt
       text: 在 GitHub 上查看
-      link: https://github.com/LemoFire/ntang
+      link: https://github.com/UzkiS/ntang
 ---

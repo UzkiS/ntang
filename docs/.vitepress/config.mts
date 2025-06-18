@@ -5,14 +5,24 @@ export default defineConfig({
   base: "/ntang/",
   lang: "zh-CN",
   lastUpdated: true,
+  head: [
+    [
+      "script",
+      {
+        defer: "",
+        src: "https://stat.ito.fun/script.js",
+        "data-website-id": "9c5ecfc8-d73e-4740-80e2-e7ec01a55391",
+      },
+    ],
+  ],
   themeConfig: {
     editLink: {
-      pattern: "https://github.com/LemoFire/ntang/edit/main/docs/index.md",
+      pattern: "https://github.com/UzkiS/ntang/edit/main/docs/index.md",
       text: "Edit this page on GitHub",
     },
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      copyright: "Copyright © 2022-present UzkiS",
     },
     lastUpdatedText: "Updated Date",
     sidebar: [
@@ -22,7 +32,6 @@ export default defineConfig({
       },
       {
         text: "Browser",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/browser" },
@@ -34,7 +43,6 @@ export default defineConfig({
       },
       {
         text: "Checker",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/checker" },
@@ -43,7 +51,6 @@ export default defineConfig({
       },
       {
         text: "Device",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/device" },
@@ -56,7 +63,6 @@ export default defineConfig({
       },
       {
         text: "Encrypt",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/encrypt" },
@@ -67,7 +73,6 @@ export default defineConfig({
       },
       {
         text: "Identifier",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/identifier" },
@@ -76,7 +81,6 @@ export default defineConfig({
       },
       {
         text: "Optimization",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/optimization" },
@@ -86,7 +90,6 @@ export default defineConfig({
       },
       {
         text: "StringFilter",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/stringFilter" },
@@ -95,7 +98,6 @@ export default defineConfig({
       },
       {
         text: "Time",
-        collapsible: true,
         collapsed: true,
         items: [
           { text: "简介", link: "/time" },
@@ -104,9 +106,7 @@ export default defineConfig({
       },
     ],
     // siteTitle: "NTANG工具箱",
-    socialLinks: [
-      { icon: "github", link: "https://github.com/LemoFire/ntang" },
-    ],
+    socialLinks: [{ icon: "github", link: "https://github.com/UzkiS/ntang" }],
   },
   title: "NTANG工具箱",
 });
